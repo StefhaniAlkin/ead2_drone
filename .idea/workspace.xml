@@ -47,7 +47,20 @@
     "onboarding.tips.debug.path": "C:/Users/steha/IdeaProjects/ead2_drone/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaComOrientacaoDiferente">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="ead2_drone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ead2_drone" />
       <extension name="coverage">
@@ -75,22 +88,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CaixaPassaPelaJanelaTest" />
       <option name="METHOD_NAME" value="testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComRotacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ead2_drone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CaixaPassaPelaJanelaTest" />
-      <option name="METHOD_NAME" value="testCaixaPassaPelaJanela_CaixaComRotacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaComOrientacaoDiferente" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente" />
-        <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComRotacao" />
       </list>
     </recent_temporary>
   </component>

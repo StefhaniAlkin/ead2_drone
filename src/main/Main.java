@@ -1,19 +1,31 @@
 package main;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner scanner = new Scanner(System.in);
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Solicita as dimensões da caixa
+        System.out.println("Digite as dimensões da caixa (A, B, C em centímetros):");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        // Solicita as dimensões da janela
+        System.out.println("Digite as dimensões da janela (H, L em centímetros):");
+        int h = scanner.nextInt();
+        int l = scanner.nextInt();
+
+        // Chama a função para verificar se a caixa passa pela janela
+        boolean caixaPassa = CaixaPassaPelaJanela.caixaPassaPelaJanela(a, b, c, h, l);
+
+        // Exibe o resultado
+        if (caixaPassa) {
+            System.out.println("A caixa passa pela janela (S)");
+        } else {
+            System.out.println("A caixa não passa pela janela (N)");
         }
+
+        scanner.close();
     }
 }
