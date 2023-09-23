@@ -37,5 +37,11 @@ public class CaixaPassaPelaJanelaTest {
         assertTrue(CaixaPassaPelaJanela.caixaPassaPelaJanela(80, 60, 80, 60, 80));
     }
 
+    @Test
+    //Sexto teste
+    public void testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores() {
+        assertFalse(CaixaPassaPelaJanela.caixaPassaPelaJanela(100, 80, 120, 80, 60));
+    }
+
 
 }

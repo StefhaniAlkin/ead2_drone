@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
+    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="refactor: Retornada para versão de lógica anterior">
+      <change beforePath="$PROJECT_DIR$/src/test/CaixaPassaPelaJanelaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CaixaPassaPelaJanelaTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,7 @@
     "onboarding.tips.debug.path": "C:/Users/steha/IdeaProjects/ead2_drone/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela">
+  <component name="RunManager" selected="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores">
     <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ead2_drone" />
       <extension name="coverage">
@@ -110,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaPassa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ead2_drone" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CaixaPassaPelaJanelaTest" />
-      <option name="METHOD_NAME" value="testCaixaPassaPelaJanela_CaixaPassa" />
+      <option name="METHOD_NAME" value="testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassaDimensoesMaiores" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComRotacao" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassa" />
-        <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaPassa" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695499159539</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Adiciona teste para caixa que passa pela janela com mesmas dimensões da janela">
+      <option name="closed" value="true" />
+      <created>1695501525426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695501525426</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: Retornada para versão de lógica anterior">
+      <option name="closed" value="true" />
+      <created>1695501603379</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695501603379</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +230,9 @@
     <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela com rotação" />
     <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela com orientação diferente" />
     <MESSAGE value="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
+    <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela com mesmas dimensões da janela" />
+    <MESSAGE value="refactor: Retornada para versão de lógica anterior" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Retornada para versão de lógica anterior" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
