@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="feat: Adiciona teste para caixa que passa pela janela com rotação">
-      <change beforePath="$PROJECT_DIR$/src/test/CaixaPassaPelaJanelaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CaixaPassaPelaJanelaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,8 +45,8 @@
     "onboarding.tips.debug.path": "C:/Users/steha/IdeaProjects/ead2_drone/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente">
-    <configuration name="CaixaPassaPelaJanelaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela">
+    <configuration name="CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ead2_drone" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +56,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CaixaPassaPelaJanelaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComMesmasDimensoesDaJanela" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaComRotacao" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaNaoPassa" />
         <item itemvalue="JUnit.CaixaPassaPelaJanelaTest.testCaixaPassaPelaJanela_CaixaPassa" />
-        <item itemvalue="JUnit.CaixaPassaPelaJanelaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695498812844</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Adiciona teste para caixa que passa pela janela com orientação diferente">
+      <option name="closed" value="true" />
+      <created>1695498855143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695498855143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms).">
+      <option name="closed" value="true" />
+      <created>1695499159539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695499159539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +210,9 @@
     <MESSAGE value="feat: Adiciona teste para caixa que NÃO passa pela janela (caso básico)" />
     <MESSAGE value="refactor: Melhorada a lógica com condições de rotação" />
     <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela com rotação" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Adiciona teste para caixa que passa pela janela com rotação" />
+    <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela com orientação diferente" />
+    <MESSAGE value="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: alterado para a lógica anterior e realizado novo teste para verificar possível mudança no desempenho (resposta em ms)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
