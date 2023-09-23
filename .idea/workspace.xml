@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="chore: Inicialização do projeto">
-      <change afterPath="$PROJECT_DIR$/src/test/CaixaPassaPelaJanelaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaixaPassaPelaJanela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CaixaPassaPelaJanela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    <list default="true" id="40aba398-3d6e-4f15-ac31-3dc4a14084fa" name="Changes" comment="feat: Adiciona teste para caixa que NÃO passa pela janela (caso básico)">
+      <change beforePath="$PROJECT_DIR$/src/main/CaixaPassaPelaJanela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CaixaPassaPelaJanela.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "onboarding.tips.debug.path": "C:/Users/steha/IdeaProjects/ead2_drone/src/Main.java"
@@ -121,12 +120,30 @@
       <option name="project" value="LOCAL" />
       <updated>1695497536838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Adiciona teste para caixa que passa pela janela (caso básico)">
+      <option name="closed" value="true" />
+      <created>1695497879249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695497879249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Adiciona teste para caixa que NÃO passa pela janela (caso básico)">
+      <option name="closed" value="true" />
+      <created>1695498047149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695498047149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: Inicialização do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Inicialização do projeto" />
+    <MESSAGE value="feat: Adiciona teste para caixa que passa pela janela (caso básico)" />
+    <MESSAGE value="feat: Adiciona teste para caixa que NÃO passa pela janela (caso básico)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Adiciona teste para caixa que NÃO passa pela janela (caso básico)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
