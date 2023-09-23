@@ -25,5 +25,11 @@ public class CaixaPassaPelaJanelaTest {
         assertTrue(CaixaPassaPelaJanela.caixaPassaPelaJanela(30, 80, 50, 60, 80));
     }
 
+    @Test
+    //Quarto teste
+    public void testCaixaPassaPelaJanela_CaixaComOrientacaoDiferente() {
+        assertTrue(CaixaPassaPelaJanela.caixaPassaPelaJanela(50, 30, 80, 60, 80));
+    }
+
 
 }
