@@ -1,3 +1,5 @@
+package main;
+
 public class CaixaPassaPelaJanela {
     public static boolean caixaPassaPelaJanela(int a, int b, int c, int h, int l) {
         // Verificar a lógica pra ver se a caixa passa pela janela
