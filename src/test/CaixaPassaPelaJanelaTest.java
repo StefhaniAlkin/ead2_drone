@@ -18,4 +18,12 @@ public class CaixaPassaPelaJanelaTest {
     public void testCaixaPassaPelaJanela_CaixaNaoPassa(){
         assertFalse(CaixaPassaPelaJanela.caixaPassaPelaJanela(75,100,50,100,30));
     }
+
+    @Test
+    //Terceiro teste
+    public void testCaixaPassaPelaJanela_CaixaComRotacao() {
+        assertTrue(CaixaPassaPelaJanela.caixaPassaPelaJanela(30, 80, 50, 60, 80));
+    }
+
+
 }
